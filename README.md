@@ -1,6 +1,5 @@
-
-**Peter Mwangi Ngugi
-2023-09-28**
+### Week 1 Project : Churn Prediction for Sprint.
+**2023-09-28**
 
 **Question 1**
 
