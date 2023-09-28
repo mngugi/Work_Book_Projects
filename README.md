@@ -1,67 +1,45 @@
-Task 1: Introduction to Data Science
-Peter M. Ngugi
-September 27, 2023
-Question 1: Can you clarify the difference between data science, data anal-
-ysis, data engineering, and analytical engineering?
-1Table 1: Differences between Data Science, Data Analysis, Data Engineering,
-and Analytical Engineering
-Data Science
-Data Analysis
-Data Engineer- Analytical Engi-
-ing
-neering
-Focus: A combi- Data Analysis is Data engineering Analytical
-en-
-nation of science the interpretation is the physical gineering is the
-and mathematical of data to find implementation of creating of tools
-methods to extract specific answers.
-data collection and for processing and
-knowledge
-from
-data
-generation analyzing.
-data and informa-
-infrastructure.
-tion.
-Tasks: Data scien- Tasks: Data ana- Tasks: Data engi- Tasks: Analytical
-tists work on tasks lysts often perform neers are respon- engineers develop
-such as data collec- tasks like data sible for building and maintain data
-tion, data cleaning, cleaning,
-data and
-managing platforms, data in-
-exploratory
-data visualization, gen- data
-pipelines, tegration solutions,
-analysis, machine erating descriptive ETL
-(Extract, and machine learn-
-learning, predictive statistics, and con- Transform, Load) ing pipelines. They
-modeling, and cre- ducting hypothesis processes,
-data work on optimizing
-ating data-driven testing to draw warehouses,
-and data workflows and
-solutions to com- meaningful conclu- databases.
-They ensuring that data
-plex problems.
-sions from data.
-ensure that data is scientists have the
-accessible, reliable, tools they need
-and available for to conduct their
-analysis.
-analyses effectively.
-Goal: The primary Goal: The primary Goal:
-The pri- Goal: The primary
-goal of data sci- goal of data anal- mary goal of data goal of analytical
-ence is to gener- ysis is to provide engineering is to engineering is to
-ate actionable in- insights, summa- create a robust enable data scien-
-sights, make pre- rize findings, and data infrastructure tists and analysts
-dictions, and build support decision- that enables effi- to work with data
-data-driven appli- making.
-cient data storage, efficiently, allowing
-cations.
-retrieval, and pro- them to focus on
-cessing.
-modeling and anal-
-ysis rather than
-dealing with infras-
-tructure issues.
-2
+
+**Peter Mwangi Ngugi
+2023-09-28**
+
+**Question 1**
+
+Imagine you’re working with Sprint, one of the biggest Telecom companies in the USA. They’re really keen on figuring out how many customers might decide to leave them in the coming months. Luckily, they’ve got a bunch of past data about when customers have left before, as well as info about who these customers are, what they’ve bought, and other things like that. So, if you were in charge of predicting customer churn how would you go about using machine learning to make a good guess about which customers might leave? Like, what steps would you take to create a machine learning model that can predict if someone’s going to leave or not?
+
+**Solution**
+
+**1. Review Existing Customer Data:** 
+
+
+The first step is to ’assemble’ all the existing data that pertains the customers who have left Churn Spirit and the currently existing Customers. Then categorize the data into two groups , Customers who have left and the Current Customers.Start by analyzing Customer usage patterns , observe Customer communication for example Customer complaints and feedback support given back to
+the Customer and review Customer payment plans. In a nutshell these three attributes are the major reasons why a Customer would leave Sprint Telecom.
+
+
+**2. Start Processing the Data:** Once step 1 above is thoroughly done the next step is to process data by cleaning the data ambiguity including data inconsistencies in order to have accurate data to work with. This processing involves data encoding that is ensuring all the data required is in numerical format and that a metric function can be used to process .
+
+**3. Identify important elements that impact on Customers:** At this step it is important to identify which features impacts on the Customer to leave Spirit Telecom services. For example identifying relationships, correlations and models that are of impact to customers.
+
+
+**4. Identify and Select a Model:** 
+At this stage it important to identify which algorithm is suitable for prediction of the datasets obtained from step 1 and step 2 above. Some of the known Machine Learning algorithms are logistic regression, decision trees, random forests, gradient boosting , and neural networks.
+
+
+**5. Model Training and Evaluate the Model:** 
+Train the model according to the dataset obtained using the necessary algorithm. Evaluate the model performance using data tests cross validating on the accuracy of the results
+produced.
+
+
+**6. Interpretation, Visualization and Representation of Results:**
+
+This step ensures that the results obtained are readable, repeatable and such can be interpretative, and visually represented to the consumer in this case Sprint Telecom.
+
+
+**7. Project Execution and Deployment:** 
+The algorithm is ready for deployment and needs to be implemented on real time customer data for continuous data retraining and continuous improvement as well tracking on the
+results.
+
+
+**8. Maintenance and Feedback:** Continuous re-evaluation of the process against feedback from the customers is import for customer retention and to identify solutions as to why they customers want to leave.
+
+**Question 2 .**
+Let’s say you’re a Product Data Scientist at Instagram. How would you measure the success of the Instagram TV product?
