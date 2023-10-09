@@ -302,5 +302,59 @@ print(h)
                 
 ```
 
+---
+### Week 2 Task RFM Analysis
+**Problem Statement**
+
+
+RFM analysis is a powerful technique used by companies to better understand customer behavior and optimize engagement strategies. It revolves around three key dimensions: 
+recency, frequency, and monetary value. These dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.
+
+The given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID 
+command and location. The platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.
+
+Your task is to perform RFM analysis and develop customer segments based on their RFM scores.The analysis should provide insights into customer behaviour and identification of high-value customers,at-risk customers, and potential opportunities for personalized marketing 
+campaigns.
+
+
+
+**Understanding  RFM Analysis System.**
+
+According to G.Wright(n.d). 
+
+“RFM anlysis is a marketing technique used to quantitatively rank and group customers based on the recency, frequenc and monetary total of their recent transactions to identify the best customers and perform targeted marketing campaigns.”
+
+RFM The system assigns each customer numerical scores based on these factors to provide an objective analysis. RFM analysis is based on the marketing adage that "80% of your business comes from 20% of your customers."_
+
+**RFM Analysis**
+
+“RFM analysis scores customers on each of the three main factors. Generally, a score from 1 to 5 is given, with 5 being the highest.”
+
+**Definitions:**
+
+    • **Recency** is the most recent time a customer purchased an item and it is measured in days, weeks, hours and years.
+
+    • Frequency is how often a customer purchase an item.
+
+    • Monetary this is how much a customer spends in a given period of time. 
+      
+    • Segmentation of customers in RFM analysis.  This is identifying clusters of customers with similar attributes.
+
+**Customer Types**
+
+    1. Whales : These are customers that tick all the three attributes with a high score of (5,5,5).
+    2. New Customers: Customers with a high recency but a low frequency and obviously low monetary value. (5. 1 , x)
+    3. Lapsed Customers: Customers with low recency but high value (1,X,5) were once valuable customers but have since stopped.
+
+ 
+
+
+
+
+
+**References and Resources:**
+G.Wright(n.d). RFM analysis (recency, frequency, monetary). TechTarget, Data Management. https://www.techtarget.com/searchdatamanagement/definition/RFM-analysis
+Reference link:
+https://statso.io/rfm-analysis-case-study/
 
 
