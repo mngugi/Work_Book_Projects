@@ -332,7 +332,7 @@ RFM The system assigns each customer numerical scores based on these factors to 
 
 **Definitions:**
 
-    • **Recency** is the most recent time a customer purchased an item and it is measured in days, weeks, hours and years.
+    • Recency is the most recent time a customer purchased an item and it is measured in days, weeks, hours and years.
 
     • Frequency is how often a customer purchase an item.
 
