@@ -362,4 +362,6 @@ G.Wright(n.d). RFM analysis (recency, frequency, monetary). TechTarget, Data Man
 Reference link:
 https://statso.io/rfm-analysis-case-study/
 
+---
+
 
