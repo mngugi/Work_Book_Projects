@@ -347,7 +347,12 @@ RFM The system assigns each customer numerical scores based on these factors to 
     3. Lapsed Customers: Customers with low recency but high value (1,X,5) were once valuable customers but have since stopped.
 
  
+**Further Examples of Customer Segmentation**
 
+**Loyal High Value Customer:** Most valuable Customers that should always get the highest priority customer engagements. 
+**At-risk Customers:** They are customers with very low frequency, recency and monetary and they are often at risk for churning.
+**New High- Value Customers:** These are customers with high monetary value but low on frequency and recency.
+**Lapsed Customers:** Customers who ahve not purchased in a long time.
 
 
 
