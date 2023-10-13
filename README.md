@@ -358,10 +358,19 @@ RFM The system assigns each customer numerical scores based on these factors to 
 
 
 **References and Resources:**
+
+
 G.Wright(n.d). RFM analysis (recency, frequency, monetary). TechTarget, Data Management. https://www.techtarget.com/searchdatamanagement/definition/RFM-analysis
+
+
 Reference link:
 https://statso.io/rfm-analysis-case-study/
 
+```Html
+Reference Notes:
+Cell 20 and 21 Code i have used Aman Kharwal and Chat GPT code structure for data visualization . 
+Matplot library could not generate the desired results and i need time on it. 
+```
 ---
 
 
