@@ -2,6 +2,10 @@ from turtle import *
 
 
 shape('turtle')
-for i in range(4):
-    forward(100)
-    right(90)
+def square():
+    for i in range(4):
+        forward(100)
+        right(90)
+
+    
+square()
