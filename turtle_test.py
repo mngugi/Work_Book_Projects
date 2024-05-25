@@ -1,5 +1,7 @@
 from turtle import *
-forward(300)
-right(250)
+
 
 shape('turtle')
+for i in range(4):
+    forward(100)
+    right(90)
