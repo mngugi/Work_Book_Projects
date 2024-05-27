@@ -14,6 +14,13 @@ for j in range(4):
     forward(100)
     right(90)
 
+def rectangle_func():
+    for k in range(4):
+        forward(150)
+        right(140)
+
+rectangle_func()
+        
 
     
 
