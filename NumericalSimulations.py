@@ -8,6 +8,6 @@ g = 9.81
 t = 0.6
 
 
-y = v0 * t  - 0.5 *g * t ** 2
+y = v0 * t  - 0.5*g * t ** 2
 
 print("Vertical position is :",y)
