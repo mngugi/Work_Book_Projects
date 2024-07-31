@@ -67,5 +67,10 @@ def adj(matrix):
             
         main.append(append_temp)
         
-        
+    for i in range(len(matrix)):
+        for j in range(len(main[i])):
+            main[i][j] = (-1**(i+j+2))*main[i][j]
+    main = transpose(main)
+    return main
+
     
