@@ -32,6 +32,19 @@ def determinant(matrix):
     if len(matrix) > 2:
         matrix_0 matrix[1::]
         main = list()
+        for i range(len(matrix)):
+            temp = transpose(matrix_o)
+            temp.pop(i)
+            temp = transpose(temp)
+            main.append(temp)
+        det = 0
+        for i in range(len(matrix[0])):
+            if 1%2 == 0:
+                det += matrix[0][i]*det(main[i])
+            else:
+                det += matrix[0][i]*det(main[i])
+                
+            
     else:
         det = (matrix[0][0]*matrix[1][1]-matrix[1][0]*matrix[0][1])
         return det
