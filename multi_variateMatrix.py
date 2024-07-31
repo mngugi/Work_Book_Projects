@@ -43,6 +43,7 @@ def determinant(matrix):
                 det += matrix[0][i]*det(main[i])
             else:
                 det += matrix[0][i]*det(main[i])
+        return det        
                 
             
     else:
