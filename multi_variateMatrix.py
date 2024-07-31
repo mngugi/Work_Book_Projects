@@ -50,6 +50,22 @@ def determinant(matrix):
         det = (matrix[0][0]*matrix[1][1]-matrix[1][0]*matrix[0][1])
         return det
 
-    
+
+
+def adj(matrix):
+    main = list()
+    for i in range(len(matrix)):
+        append_temp = list()
+        for j in range(len(matrix[i]))
+        temp = matrix[:]
+        temp = transpose(matrix_o)
+            temp.pop(i)
+            temp = transpose(temp)
+            temp.pop(j)
+            temp = transpose(temp)
+            append_temp.append(det(temp))
+            
+        main.append(append_temp)
+        
         
     
