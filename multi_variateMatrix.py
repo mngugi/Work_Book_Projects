@@ -28,3 +28,14 @@ def vaector_multivariate(matrix1,matrix2):
         main.append(temp_list)
     return main    
         
+def determinant(matrix):
+    if len(matrix) > 2:
+        matrix_0 matrix[1::]
+        main = list()
+    else:
+        det = (matrix[0][0]*matrix[1][1]-matrix[1][0]*matrix[0][1])
+        return det
+
+    
+        
+    
