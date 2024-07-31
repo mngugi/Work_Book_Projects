@@ -24,5 +24,7 @@ def vaector_multivariate(matrix1,matrix2):
             tempt = 0
             for q in range(len(i)):
                 temp += i[q]*j[q]
-            temp_list.append(temp)    
+            temp_list.append(temp)
+        main.append(temp_list)
+    return main    
         
