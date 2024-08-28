@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_moons
 from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
+from sklearn.svm import SVC # type: ignore
 
 # Generate a non-linearly separable dataset (e.g., two moons)
 X, y = make_moons(n_samples=200, noise=0.2, random_state=42)
