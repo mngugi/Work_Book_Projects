@@ -1,3 +1,5 @@
+import numpy as np
+import matplotlib.pyplot as plt
 from sklearn import svm
 
 # Define the data points (features)
@@ -10,11 +12,32 @@ x = [
 # Define the labels (targets)
 y = [0, 1, 0]
 
-# Create the SVM classifier
-clf = svm.SVC()
+# Convert to numpy arrays for easy manipulation
+X = np.array(x)
+Y = np.array(y)
 
-# Train the model (fit the classifier to the data)
-clf.fit(x, y)
+# Create the SVM classifier with a linear kernel
+clf = svm.SVC(kernel='linear')
+clf.fit(X, Y)
 
-# You can make predictions on new data using clf.predict(new_data)
-clf.predict(new_data)
+# Plotting the data points
+plt.scatter(X[Y == 0][:, 0], X[Y == 0][:, 1], color='red', marker='o', label='Class 0')
+plt.scatter(X[Y == 1][:, 0], X[Y == 1][:, 1], color='blue', marker='x', label='Class 1')
+
+# Plotting the decision boundary
+# Create a grid to plot decision boundaries
+xx, yy = np.meshgrid(np.linspace(-3, 3, 500), np.linspace(-5, 5, 500))
+Z = clf.decision_function(np.c_[xx.ravel(), yy.ravel()])
+Z = Z.reshape(xx.shape)
+
+# Plot decision boundary and margins
+plt.contour(xx, yy, Z, levels=[-1, 0, 1], linestyles=['--', '-', '--'], colors='black')
+plt.scatter(clf.support_vectors_[:, 0], clf.support_vectors_[:, 1], s=100, facecolors='none', edgecolors='k', label='Support Vectors')
+
+# Additional plot settings
+plt.legend()
+plt.title('SVM Decision Boundary and Support Vectors')
+plt.xlabel('Feature 1')
+plt.ylabel('Feature 2')
+plt.grid(True)
+plt.show()
