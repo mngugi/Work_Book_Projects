@@ -8,6 +8,9 @@ from sklearn.svm import SVC
 import matplotlib.pyplot as plt
 import numpy as np 
 
+import warnings
+warnings.filterwarnings("ignore")
+
 # Load a simple dataset (e.g., iris dataset)
 iris = datasets.load_iris()
 X = iris.data[:, :2]  # Taking only the first two features for visualization
