@@ -17,5 +17,8 @@ print(results_)
 print('\n--------------------------\n')
 print(results.t_test([1, 0]))
 
+print('\n--------------------------\n')
+print(results.f_test(np.identity(2)))
+
 
 
