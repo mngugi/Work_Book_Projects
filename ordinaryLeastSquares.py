@@ -1,4 +1,3 @@
-%matplotlib inline 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -54,7 +53,18 @@ ax.plot(x, iv_u, "r--")
 ax.plot(x, iv_l, "r--")
 ax.legend(loc="best")
 
+fig, ax = plt.subplots(figsize=(8, 6))
 
+ax.plot(x, y, "o", label="data")
+ax.plot(x, y_true, "b-", label="True")
+ax.plot(x, res.fittedvalues, "r--.", label="OLS")
+ax.plot(x, iv_u, "r--")
+ax.plot(x, iv_l, "r--")
+ax.legend(loc="best")
 
+# Save the plot as an image file (e.g., PNG)
+plt.savefig("ols_graph.png", dpi=300, bbox_inches='tight')  # Save with high resolution
 
+# Show the plot
+plt.show()
 
