@@ -1,3 +1,14 @@
+a = '''
+Ordinary Least Squares (OLS) in Linear Regression
+
+Ordinary Least Squares (OLS) is a statistical method used to estimate the parameters
+(or coefficients) of a linear regression model. In simple terms, OLS helps us find the
+"best-fitting" line that describes the relationship between the independent variable(s)
+and the dependent variable by minimizing the sum of squared differences between the observed
+data and the predicted values.
+
+'''
+print(a)
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
