@@ -15,6 +15,7 @@ results_ = results.tvalues
 print(results_)
 
 print('\n--------------------------\n')
+print(results.t_test([1, 0]))
 
 
 
