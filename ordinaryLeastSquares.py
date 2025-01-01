@@ -7,6 +7,16 @@ Ordinary Least Squares (OLS) is a statistical method used to estimate the parame
 and the dependent variable by minimizing the sum of squared differences between the observed
 data and the predicted values.
 
+Example of OLS in Action
+
+Let's consider a simple example where we want to predict a person's weight YY based on their
+height XX. We collect data and fit an OLS model. The goal is to find the best line (in the 
+form Y=β0+β1XY=β0​+β1​X) that minimizes the sum of squared errors between the observed weights 
+and the weights predicted by the model.
+
+After fitting the model, the OLS estimates for β0β0​ and β1β1​ will give us the equation of 
+the best-fitting line, which we can use to predict the weight for any given height.
+
 '''
 print(a)
 import matplotlib.pyplot as plt
