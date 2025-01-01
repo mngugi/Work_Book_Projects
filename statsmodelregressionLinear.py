@@ -8,7 +8,7 @@ X = duncan_prestige.data['education']
 X = sm.add_constant(X)
 model = sm.OLS(Y,X)
 results = model.fit()
-results.params
+print(results.params)
 
 
 
