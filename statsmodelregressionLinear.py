@@ -9,6 +9,12 @@ X = sm.add_constant(X)
 model = sm.OLS(Y,X)
 results = model.fit()
 print(results.params)
+print('\n--------------------------\n')
+
+results_ = results.tvalues
+print(results_)
+
+print('\n--------------------------\n')
 
 
 
