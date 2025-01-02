@@ -89,6 +89,11 @@ plt.savefig("ols_graph.png", dpi=300, bbox_inches='tight')  # Save with high res
 # Show the plot
 plt.show()
 
+# fit summary 
+res2 = sm.OLS(y, X).fit()
+print(res2.summary())
+
+
 # f- test 
 
 R = [[0, 1, 0, 0], [0, 0, 1, 0]]
