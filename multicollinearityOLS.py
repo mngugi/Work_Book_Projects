@@ -1,4 +1,5 @@
 from statsmodels.datasets.longley import load_pandas
+import statsmodels.api as sm
 
 y = load_pandas().endog
 X = load_pandas().exog
