@@ -156,3 +156,5 @@ What Does This Mean?
         variable and should be included in the model.
 '''
 print(d) 
+
+print(res2.f_test("x2 = x3 = 0"))
