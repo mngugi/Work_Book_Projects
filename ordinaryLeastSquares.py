@@ -99,3 +99,20 @@ print(res2.summary())
 R = [[0, 1, 0, 0], [0, 0, 1, 0]]
 print(np.array(R))
 print(res2.f_test(R))
+
+b= '''
+2. The Array: [[0 1 0 0], [0 0 1 0]]
+
+This is likely a contrast matrix or design matrix used in the model to define certain relationships or hypotheses for testing (e.g., in the F-test). Here's what it likely represents:
+
+    Each row corresponds to a linear combination of coefficients being tested.
+    For example:
+        Row 1: [0 1 0 0] means the second coefficient is being tested (e.g., testing if β2=0β2​=0).
+        Row 2: [0 0 1 0] means the third coefficient is being tested (e.g., testing if β3=0β3​=0).
+
+In this case, the F-test will assess whether the specified coefficients (e.g., β2β2​ and β3β3​) are jointly significant.
+'''
+print(b) 
+c= '''
+
+'''
