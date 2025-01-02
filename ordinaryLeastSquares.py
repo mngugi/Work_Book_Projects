@@ -103,7 +103,8 @@ print(res2.f_test(R))
 b= '''
 2. The Array: [[0 1 0 0], [0 0 1 0]]
 
-This is likely a contrast matrix or design matrix used in the model to define certain relationships or hypotheses for testing (e.g., in the F-test). Here's what it likely represents:
+This is likely a contrast matrix or design matrix used in the model to define certain relationships
+or hypotheses for testing (e.g., in the F-test). Here's what it likely represents:
 
     Each row corresponds to a linear combination of coefficients being tested.
     For example:
@@ -114,5 +115,44 @@ In this case, the F-test will assess whether the specified coefficients (e.g., �
 '''
 print(b) 
 c= '''
+3. F-Test Information
 
+    <F test: F=34.455088527508664, p=7.164481588009625e-10, df_denom=46, df_num=2>
+
+This describes the results of an F-test, which is used to evaluate whether a group of coefficients
+in the regression model is jointly significant. Here's what the components mean:
+
+    F-statistic (F): 34.455
+        This value measures the ratio of the explained variance to the unexplained variance for the
+        group of coefficients being tested. A higher F-statistic suggests stronger evidence against the null hypothesis.
+    p-value (p): 7.164e-10
+        The p-value indicates the probability of observing the F-statistic (or something more extreme) under the null 
+        hypothesis. A very small p-value (like 7.16×10−107.16×10−10) suggests that the null hypothesis is highly unlikely.
+        In this case, the p-value is much smaller than common significance levels like α=0.05α=0.05, so we reject the null
+        hypothesis.
+    Degrees of freedom (df_num, df_denom):
+        df_num (2): The number of parameters being tested (in this case, 2 coefficients).
+        df_denom (46): The degrees of freedom in the residuals, which is the number of observations minus the number 
+        of estimated parameters.
+        
 '''
+
+d = '''
+What Does This Mean?
+
+    The F-Test: The test is evaluating whether the two coefficients corresponding to [0 1 0 0] and [0 0 1 0] are jointly equal
+    to 0 (i.e., testing their significance in explaining the dependent variable).
+        Null Hypothesis: β2=β3=0β2​=β3​=0 (the coefficients being tested have no impact on the dependent variable).
+        Alternative Hypothesis: At least one of the coefficients is non-zero (i.e., at least one contributes significantly 
+        to explaining the dependent variable).
+
+    Interpretation:
+        The very large F-statistic (34.455) and extremely small p-value (7.164e-10) suggest strong evidence against the null
+        hypothesis. This means that at least one of the coefficients (β2β2​ or β3β3​) is statistically significant in explaining
+        the dependent variable.
+
+    Practical Implication:
+        If these coefficients represent predictors in a regression model, they are important for understanding the dependent
+        variable and should be included in the model.
+'''
+print(d) 
