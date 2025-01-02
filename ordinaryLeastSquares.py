@@ -89,3 +89,8 @@ plt.savefig("ols_graph.png", dpi=300, bbox_inches='tight')  # Save with high res
 # Show the plot
 plt.show()
 
+# f- test 
+
+R = [[0, 1, 0, 0], [0, 0, 1, 0]]
+print(np.array(R))
+print(res2.f_test(R))
