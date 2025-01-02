@@ -158,3 +158,9 @@ What Does This Mean?
 print(d) 
 
 print(res2.f_test("x2 = x3 = 0"))
+
+beta = [1.0, 0.3, -0.0, 10]
+y_true = np.dot(X, beta)
+y = y_true + np.random.normal(size=nsample)
+
+res3 = sm.OLS(y, X).fit()
