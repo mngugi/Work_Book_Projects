@@ -36,4 +36,9 @@ print(
     )
 )
 
+infl = ols_results.get_influence()
+2.0 / len(X) ** 0.5
+print(infl.summary_frame().filter(regex="dfb"))
+
+
 
