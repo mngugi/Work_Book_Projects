@@ -164,3 +164,5 @@ y_true = np.dot(X, beta)
 y = y_true + np.random.normal(size=nsample)
 
 res3 = sm.OLS(y, X).fit()
+
+print(res3.f_test(R))
