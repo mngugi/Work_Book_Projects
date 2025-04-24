@@ -1,3 +1,80 @@
+# Work_Book_Projects
+
+**Work_Book_Projects** is a hands-on collection of Python scripts, exercises, and projects inspired by practical programming workbooks. This repo is perfect for reinforcing problem-solving skills, scripting logic, and core Python concepts through applied practice.
+
+---
+
+## 📁 Repository Structure
+
+- `chapter_01_basics/` – Syntax, variables, strings, numbers, and input/output
+- `chapter_02_flow_control/` – Conditionals, loops, logical operations
+- `chapter_03_functions/` – Custom functions, scope, arguments, return values
+- `chapter_04_lists_dicts/` – Working with sequences and mappings
+- `chapter_05_files/` – File handling, reading/writing, and directory ops
+- `projects/` – Larger standalone scripts combining multiple concepts
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mngugi/Work_Book_Projects.git
+   cd Work_Book_Projects
+   ```
+
+2. Run any Python script:
+
+   ```bash
+   python chapter_02_flow_control/number_guess.py
+   ```
+
+---
+
+## 📘 Goals
+
+- Practice structured programming using real workbook-style challenges
+- Reinforce Python fundamentals with consistent repetition
+- Bridge the gap between learning syntax and solving problems
+- Gain confidence writing scripts that interact with files, users, and logic
+
+---
+
+## 🔍 Features
+
+- Console-based projects with real use-cases
+- Exercises grouped by topics and increasing difficulty
+- Includes user input, file operations, and conditional logic
+- Clean, readable code with comments where necessary
+
+---
+
+## ✅ Recommended For
+
+- Beginners looking to practice Python syntax
+- Self-learners working through Python workbooks
+- Instructors creating homework or test content
+- Anyone brushing up on Python scripting skills
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork and contribute:
+- Add new challenges or projects
+- Improve solutions or suggest alternate approaches
+- Fix bugs or enhance structure
+
+Pull requests are welcome!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+***
 ### Week 1 Project : Churn Prediction for Sprint.
 **2023-09-28**
 
